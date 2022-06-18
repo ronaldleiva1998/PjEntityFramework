@@ -1,0 +1,13 @@
+C:\Users\Ronald\Desktop\entity framework\pjPrueba1\pjPrueba1\bin\Debug\pjPrueba1.exe.config
+C:\Users\Ronald\Desktop\entity framework\pjPrueba1\pjPrueba1\bin\Debug\pjPrueba1.exe
+C:\Users\Ronald\Desktop\entity framework\pjPrueba1\pjPrueba1\bin\Debug\pjPrueba1.pdb
+C:\Users\Ronald\Desktop\entity framework\pjPrueba1\pjPrueba1\bin\Debug\EntityFramework.dll
+C:\Users\Ronald\Desktop\entity framework\pjPrueba1\pjPrueba1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ronald\Desktop\entity framework\pjPrueba1\pjPrueba1\bin\Debug\EntityFramework.xml
+C:\Users\Ronald\Desktop\entity framework\pjPrueba1\pjPrueba1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ronald\Desktop\entity framework\pjPrueba1\pjPrueba1\obj\Debug\pjPrueba1.csproj.AssemblyReference.cache
+C:\Users\Ronald\Desktop\entity framework\pjPrueba1\pjPrueba1\obj\Debug\pjPrueba1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ronald\Desktop\entity framework\pjPrueba1\pjPrueba1\obj\Debug\pjPrueba1.csproj.CoreCompileInputs.cache
+C:\Users\Ronald\Desktop\entity framework\pjPrueba1\pjPrueba1\obj\Debug\pjPrueba1.csproj.CopyComplete
+C:\Users\Ronald\Desktop\entity framework\pjPrueba1\pjPrueba1\obj\Debug\pjPrueba1.exe
+C:\Users\Ronald\Desktop\entity framework\pjPrueba1\pjPrueba1\obj\Debug\pjPrueba1.pdb

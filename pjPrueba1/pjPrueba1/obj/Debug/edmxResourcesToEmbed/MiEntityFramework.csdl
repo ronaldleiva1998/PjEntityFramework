@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BDPRUEBA1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cSexo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Gente" Relationship="Self.FK__Gente__idsexo__5EBF139D" FromRole="cSexo" ToRole="Gente" />
+  </EntityType>
+  <EntityType Name="Gente">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="edad" Type="Int32" />
+    <Property Name="idsexo" Type="Int32" />
+    <NavigationProperty Name="cSexo" Relationship="Self.FK__Gente__idsexo__5EBF139D" FromRole="Gente" ToRole="cSexo" />
+  </EntityType>
+  <Association Name="FK__Gente__idsexo__5EBF139D">
+    <End Role="cSexo" Type="Self.cSexo" Multiplicity="0..1" />
+    <End Role="Gente" Type="Self.Gente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cSexo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Gente">
+        <PropertyRef Name="idsexo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BDPRUEBA1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cSexo" EntityType="Self.cSexo" />
+    <EntitySet Name="Gente" EntityType="Self.Gente" />
+    <AssociationSet Name="FK__Gente__idsexo__5EBF139D" Association="Self.FK__Gente__idsexo__5EBF139D">
+      <End Role="cSexo" EntitySet="cSexo" />
+      <End Role="Gente" EntitySet="Gente" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
